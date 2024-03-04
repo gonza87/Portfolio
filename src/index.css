@@ -110,8 +110,16 @@ body{
 
 .cardProyectos{
     background-color: #183D3D;
-    
+    margin-bottom: 40px;
 }
+
+.cardProyectosMas{
+    background-color:#040D12;
+}
+.cardProyectos:hover {
+    transform: scale(1.10); /* Puedes ajustar el valor según tus preferencias */
+    transition: transform 0.3s ease; /* Puedes ajustar la duración y la función de temporización según tus preferencias */
+  }
 
 .titleCardProyect{
     color: #93B1A6;
@@ -134,6 +142,11 @@ body{
     height: 210px;
     
 }
+
+.cardSkills:hover {
+    transform: scale(1.10); /* Puedes ajustar el valor según tus preferencias */
+    transition: transform 0.3s ease; /* Puedes ajustar la duración y la función de temporización según tus preferencias */
+  }
 
 .textCardProyect p{
     border-style:ridge;
