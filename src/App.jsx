@@ -52,8 +52,8 @@ function App() {
                 </div>
               </div>
             </div>
-            <div className="col-6 d-flex justify-content-center">
-              <img className="imgPerfil" src="/img/perfil5.jpg" alt="" />
+            <div className="col-6 d-flex justify-content-end">
+              <img className="imgPerfil" src="/img/perfil6.jpg" alt="" />
             </div>
           </div>
         </section>
@@ -195,6 +195,14 @@ function App() {
               <img className="imgProyecto pb-1" src="/img/prueba.PNG" alt="" />
             </div>
           </div> */}
+        </section>
+        <section className="contacto">
+          <p className="fs-2">Contacto</p>
+          <div>
+            <p>Email</p>
+            <p>LinkedIn</p>
+            <p>Whatsapp</p>
+          </div>
         </section>
         <section className="skills">
           <p className="fs-2">Skills</p>
