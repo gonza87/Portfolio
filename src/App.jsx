@@ -32,10 +32,10 @@ function App() {
                   <a href="#proyectos">Portfolio</a>
                 </div>
                 <div>
-                  <a href="">Contacto</a>
+                  <a href="#contacto">Contacto</a>
                 </div>
                 <div>
-                  <a href="">Skills</a>
+                  <a href="#skills">Skills</a>
                 </div>
 
                 {/* Agrega más elementos según sea necesario */}
@@ -193,18 +193,17 @@ function App() {
             ></Card>
           </div>
         </section>
-        <section className="contacto">
+        <section id="contacto" className="contacto">
           <p className="fs-2">Contacto</p>
           <div className="contcamposContactos fs-5">
             <p>
-              {" "}
               <MdOutlineEmail /> gonzalo.viglioni@gmail.com
             </p>
             <p>LinkedIn</p>
             <p>Whatsapp +598 60 20 73</p>
           </div>
         </section>
-        <section className="skills">
+        <section id="skills" className="skills">
           <p className="fs-2">Skills</p>
           <div className="row">
             <div className="col-lg-4 col-md-6 col-12">
@@ -249,12 +248,9 @@ function App() {
                     <PiToolboxFill className="logoTool" /> Tool
                   </Card.Title>
                   <Card.Text className="textCardProyect d-flex flex-wrap ">
-                    <p>html</p>
-                    <p>css</p>
-                    <p>javascript</p>
-                    <p>react</p>
-                    <p>sass</p>
-                    <p>bootstrap</p>
+                    <p>VScode</p>
+                    <p>Figma</p>
+                    <p>GitHub</p>
                   </Card.Text>
                 </Card.Body>
               </Card>

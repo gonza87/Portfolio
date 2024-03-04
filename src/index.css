@@ -47,7 +47,7 @@ background: linear-gradient(0deg, rgba(39,45,53,1) 35%, rgba(57,62,70,1) 64%, rg
     margin-top: 10px;
 }
 .footer{
-    margin-top: 400px;
+    margin-top: 150px;
     background-color: #393E46 ;
     height: 100px;
 }
@@ -69,28 +69,24 @@ background: linear-gradient(0deg, rgba(39,45,53,1) 35%, rgba(57,62,70,1) 64%, rg
     position: absolute;
     top: 50px; /* Ajusta según sea necesario */
     right: auto;
-   
-    
-   
-    /* padding-right: 60px; */
     padding-top: 10px;
     z-index: 100;
-  }
+}
  
 
-  .menu-desplegable p:hover{
+.menu-desplegable p:hover{
     cursor: pointer;
-  }
+}
 
-  .menu-desplegable a {
+.menu-desplegable a {
     text-decoration: none;
     color: #FFD369;
     font-size: larger;
-  }
+}
 
-  .iconoMenu:hover{
+.iconoMenu:hover{
     cursor: pointer;
-  }
+}
 
 .contAbout{
     margin-top: 100px;
@@ -103,7 +99,7 @@ background: linear-gradient(0deg, rgba(39,45,53,1) 35%, rgba(57,62,70,1) 64%, rg
 }
 
 .proyectos{
-    margin-top: 300px;
+    margin-top: 150px;
 }
 
 .conContactos{
@@ -130,9 +126,7 @@ background: linear-gradient(0deg, rgba(39,45,53,1) 35%, rgba(57,62,70,1) 64%, rg
     color: #FFFFFF;
 }
 
-/* .imgProyecto{
-    border-radius: 5%;
-} */
+
 
 .cardProyectos{
     background-color: #393E46;
@@ -215,7 +209,9 @@ background: linear-gradient(0deg, rgba(39,45,53,1) 35%, rgba(57,62,70,1) 64%, rg
     
 }
 
-
+.contacto{
+    margin-top: 150px;
+}
 .contcamposContactos{
     color: #EEEEEE;
     
