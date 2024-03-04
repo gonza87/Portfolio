@@ -8,6 +8,8 @@ import { LuMonitorStop } from "react-icons/lu";
 import { CiServer } from "react-icons/ci";
 import { PiToolboxFill } from "react-icons/pi";
 import { MdOutlineEmail } from "react-icons/md";
+import { FaWhatsapp } from "react-icons/fa";
+import { FaLinkedinIn } from "react-icons/fa6";
 
 import "./App.css";
 
@@ -196,11 +198,26 @@ function App() {
         <section id="contacto" className="contacto">
           <p className="fs-2">Contacto</p>
           <div className="contcamposContactos fs-5">
-            <p>
-              <MdOutlineEmail /> gonzalo.viglioni@gmail.com
-            </p>
-            <p>LinkedIn</p>
-            <p>Whatsapp +598 60 20 73</p>
+            <div className="d-flex align-items-baseline">
+              <div>
+                <MdOutlineEmail className="logoEmail" />
+              </div>
+              <p>gonzalo.viglioni@gmail.com</p>
+            </div>
+
+            <div className="d-flex align-items-baseline">
+              <div>
+                <FaLinkedinIn className="logoLinkedin" />
+              </div>
+              <p>LinkedIn</p>
+            </div>
+
+            <div className="d-flex align-items-baseline">
+              <div>
+                <FaWhatsapp className="logoWhatsapp" />
+              </div>
+              <p>Whatsapp +598 60 20 73</p>
+            </div>
           </div>
         </section>
         <section id="skills" className="skills">

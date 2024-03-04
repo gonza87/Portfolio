@@ -217,4 +217,17 @@ background: linear-gradient(0deg, rgba(39,45,53,1) 35%, rgba(57,62,70,1) 64%, rg
     
 }
 
+.logoWhatsapp{
+    color: #25d366;
+   
+}
+.logoEmail{
+    color: #c71610
+}
+
+.logoLinkedin{
+    color: #0a66c2;
+    padding-bottom: 2px;
+}
+
 
