@@ -4,6 +4,11 @@ import Card from "react-bootstrap/Card";
 import { TfiMenuAlt } from "react-icons/tfi";
 import { FaGithub } from "react-icons/fa";
 import { FaLink } from "react-icons/fa";
+import { LuMonitorStop } from "react-icons/lu";
+import { CiServer } from "react-icons/ci";
+import { PiToolboxFill } from "react-icons/pi";
+import { MdOutlineEmail } from "react-icons/md";
+
 import "./App.css";
 
 function App() {
@@ -23,11 +28,16 @@ function App() {
             {menuVisible && (
               <div className="menu-desplegable">
                 {/* Contenido del menú desplegable */}
+                <div>
+                  <a href="#proyectos">Portfolio</a>
+                </div>
+                <div>
+                  <a href="">Contacto</a>
+                </div>
+                <div>
+                  <a href="">Skills</a>
+                </div>
 
-                <a href="#proyectos">Portfolio</a>
-
-                <p>Contacto</p>
-                <p>Skills</p>
                 {/* Agrega más elementos según sea necesario */}
               </div>
             )}
@@ -35,11 +45,11 @@ function App() {
         </div>
       </div>
       <main className="container main">
-        <section>
+        <section className="mt-5">
           <div className="row">
             <div className="col-6">
               <div className="contAbout">
-                <p className="fs-1">Me llamo Gonzalo</p>
+                <p className="titleAbout">Me llamo Gonzalo</p>
 
                 <p className="fs-5 textAbout">
                   Soy desarrollador Full Stack con fuerte curiosidad en el
@@ -69,8 +79,8 @@ function App() {
               <Card.Img variant="top" src="/gif/HackShop.gif" />
               <Card.Body>
                 <Card.Title className="titleCardProyect">HackShop</Card.Title>
-                <Card.Text className="textCardProyect">
-                  React Node Express
+                <Card.Text className="textCardProyect d-flex">
+                  <p>react</p> <p>node</p> <p>express</p>
                 </Card.Text>
               </Card.Body>
 
@@ -87,8 +97,8 @@ function App() {
               <Card.Img variant="top" src="/gif/Hackflix.gif" />
               <Card.Body>
                 <Card.Title className="titleCardProyect">HackFlix</Card.Title>
-                <Card.Text className="textCardProyect">
-                  React Node Express
+                <Card.Text className="textCardProyect d-flex">
+                  <p>react</p>
                 </Card.Text>
               </Card.Body>
 
@@ -105,8 +115,8 @@ function App() {
               <Card.Img variant="top" src="/gif/twitter.gif" />
               <Card.Body>
                 <Card.Title className="titleCardProyect">Twitter</Card.Title>
-                <Card.Text className="textCardProyect">
-                  React Node Express
+                <Card.Text className="textCardProyect d-flex">
+                  <p>react</p> <p>node</p> <p>express</p>
                 </Card.Text>
               </Card.Body>
 
@@ -123,8 +133,8 @@ function App() {
               <Card.Img variant="top" src="/gif/TodoSurfJs.gif" />
               <Card.Body>
                 <Card.Title className="titleCardProyect">TodoSurf</Card.Title>
-                <Card.Text className="textCardProyect">
-                  React Node Express
+                <Card.Text className="textCardProyect d-flex">
+                  <p>javascript</p> <p>html</p> <p>css</p>
                 </Card.Text>
               </Card.Body>
 
@@ -141,8 +151,8 @@ function App() {
               <Card.Img variant="top" src="/gif/Todosurf.gif" />
               <Card.Body>
                 <Card.Title className="titleCardProyect">TodoSurf</Card.Title>
-                <Card.Text className="textCardProyect">
-                  React Node Express
+                <Card.Text className="textCardProyect d-flex">
+                  <p>javascript</p> <p>html</p> <p>sass</p>
                 </Card.Text>
               </Card.Body>
 
@@ -159,8 +169,8 @@ function App() {
               <Card.Img variant="top" src="/img/maquetado.JPG" />
               <Card.Body>
                 <Card.Title className="titleCardProyect">Maquetado</Card.Title>
-                <Card.Text className="textCardProyect">
-                  React Node Express
+                <Card.Text className="textCardProyect d-flex">
+                  <p>html</p> <p>css</p>
                 </Card.Text>
               </Card.Body>
 
@@ -173,40 +183,25 @@ function App() {
                 </Card.Link>
               </Card.Body>
             </Card>
-            {/* <Card
-              className="cardProyectosMas"
-              style={{ width: "18rem" }}
+            <Card
+              className="cardProyectos"
+              style={{ width: "18rem", visibility: "hidden" }}
             ></Card>
             <Card
-              className="cardProyectosMas"
-              style={{ width: "18rem" }}
-            ></Card> */}
+              className="cardProyectos"
+              style={{ width: "18rem", visibility: "hidden" }}
+            ></Card>
           </div>
-
-          {/* <div className="d-flex flex-wrap justify-content-between ">
-            <div>
-              <img className="imgProyecto pb-1" src="/img/prueba.PNG" alt="" />
-            </div>
-            <div>
-              <img className="imgProyecto pb-1" src="/img/prueba.PNG" alt="" />
-            </div>
-            <div>
-              <img className="imgProyecto pb-1" src="/img/prueba.PNG" alt="" />
-            </div>
-            <div>
-              <img className="imgProyecto pb-1" src="/img/prueba.PNG" alt="" />
-            </div>
-            <div>
-              <img className="imgProyecto pb-1" src="/img/prueba.PNG" alt="" />
-            </div>
-          </div> */}
         </section>
         <section className="contacto">
           <p className="fs-2">Contacto</p>
-          <div>
-            <p>Email</p>
+          <div className="contcamposContactos fs-5">
+            <p>
+              {" "}
+              <MdOutlineEmail /> gonzalo.viglioni@gmail.com
+            </p>
             <p>LinkedIn</p>
-            <p>Whatsapp</p>
+            <p>Whatsapp +598 60 20 73</p>
           </div>
         </section>
         <section className="skills">
@@ -215,8 +210,10 @@ function App() {
             <div className="col-lg-4 col-md-6 col-12">
               <Card className="cardSkills" style={{ width: "18rem" }}>
                 <Card.Body>
-                  <Card.Title className="titleCardProyect">Frontent</Card.Title>
-                  <Card.Text className="textCardProyect d-flex flex-wrap ">
+                  <Card.Title className="titleCardProyect">
+                    <LuMonitorStop className="logoFrontent" /> Frontent
+                  </Card.Title>
+                  <Card.Text className="textCardProyect d-flex flex-wrap">
                     <p>html</p>
                     <p>css</p>
                     <p>javascript</p>
@@ -230,7 +227,9 @@ function App() {
             <div className="col-lg-4 col-md-6 col-12">
               <Card className="cardSkills" style={{ width: "18rem" }}>
                 <Card.Body>
-                  <Card.Title className="titleCardProyect">Backend</Card.Title>
+                  <Card.Title className="titleCardProyect">
+                    <CiServer className="logoBackend" /> Backend
+                  </Card.Title>
                   <Card.Text className="textCardProyect d-flex flex-wrap ">
                     <p>c#</p>
                     <p>node js</p>
@@ -246,7 +245,9 @@ function App() {
             <div className="col-lg-4 col-md-6 col-12">
               <Card className="cardSkills" style={{ width: "18rem" }}>
                 <Card.Body>
-                  <Card.Title className="titleCardProyect">Tool</Card.Title>
+                  <Card.Title className="titleCardProyect">
+                    <PiToolboxFill className="logoTool" /> Tool
+                  </Card.Title>
                   <Card.Text className="textCardProyect d-flex flex-wrap ">
                     <p>html</p>
                     <p>css</p>
