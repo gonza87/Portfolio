@@ -37,6 +37,9 @@ body{
     background-color: #183D3D ;
     height: 100px;
 }
+.footer p{
+    padding-top: 40px;
+}
 .nav{
     height: 100%;
 }
