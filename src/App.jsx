@@ -39,11 +39,16 @@ function App() {
           <div className="row">
             <div className="col-6">
               <div className="contAbout">
-                <p className="fs-1">Mi nombre es </p>
-                <p className="fs-1">Gonzalo</p>
-                <p className="fs-5">
+                <p className="fs-1">Me llamo Gonzalo</p>
+
+                <p className="fs-5 textAbout">
                   Soy desarrollador Full Stack con fuerte curiosidad en el
-                  diseño web y programacion
+                  diseño web y programación. Creo en la importancia del diseño
+                  centrado en el usuario y la creación de soluciones.
+                  <p className="fs-5 textAbout">
+                    Estoy abierto a nuevas oportunidades y colaboraciones ¡no
+                    dudes en contactarme!
+                  </p>
                 </p>
                 <div className="conContactos">
                   <button className="btnLinkedin">Linkedin</button>
@@ -168,14 +173,14 @@ function App() {
                 </Card.Link>
               </Card.Body>
             </Card>
-            <Card
+            {/* <Card
               className="cardProyectosMas"
               style={{ width: "18rem" }}
             ></Card>
             <Card
               className="cardProyectosMas"
               style={{ width: "18rem" }}
-            ></Card>
+            ></Card> */}
           </div>
 
           {/* <div className="d-flex flex-wrap justify-content-between ">
