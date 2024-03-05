@@ -2,10 +2,8 @@ import React, { useState } from "react";
 import NavBar from "./components/NavBar";
 import Card from "react-bootstrap/Card";
 import { Link } from "react-router-dom";
-
 import { FaGithub } from "react-icons/fa";
 import { FaLink } from "react-icons/fa";
-
 import { MdOutlineEmail } from "react-icons/md";
 import { FaWhatsapp } from "react-icons/fa";
 import { FaLinkedinIn } from "react-icons/fa6";
@@ -36,11 +34,12 @@ function App() {
       console.error("Error al copiar el correo al portapapeles:", error);
     }
   };
-  const [menuVisible, setMenuVisible] = useState(false);
-  const toggleMenu = () => {
-    setMenuVisible(!menuVisible);
-  };
-  const [projectHovered, setProjectHovered] = useState(null);
+  // const [menuVisible, setMenuVisible] = useState(false);
+  // const toggleMenu = () => {
+  //   setMenuVisible(!menuVisible);
+  // };
+  // const [projectHovered, setProjectHovered] = useState(null);
+
   const webGitHub = "https://github.com/gonza87";
   const whatsapp = "https://wa.me/+59898602073";
   const linkedin = "https://www.linkedin.com/in/gonzaloviglioni/";

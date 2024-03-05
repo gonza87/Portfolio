@@ -1,4 +1,4 @@
-
+/*** Estilos generales ***/
 
 @import url('https://fonts.googleapis.com/css2?family=Titillium+Web:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700&display=swap');
 
@@ -17,65 +17,51 @@ body{
     box-sizing: border-box;
     font-family: "Titillium Web", sans-serif;
 }
+/****************************************************************************************************************************************/
 
+/*** Header ***/
+.header{
+    background-color: #393E46;   
+} 
+.navbar{
+    background-color: #393E46;   
+}
 
+.titleNav{
+    color: #FFD369;;
+}
 
+.nav{
+    height: 100%;
+}
+.textNav{
+    color: #d7dadd;
+    text-decoration: none;
+}  
+
+/******************************************************************************************************************************************/
+
+/*** Main ***/
+.main{
+    margin-top: 10px;
+}
+/********************************************************************************************************************************************/
+
+/*** Section About ***/
 .imgPerfil{
     border-radius: 50% 10%;
 	background-image: var(--img-url), linear-gradient(to bottom left, #f83600, #f9d423);
-   
     width: 336px;
     height: 386px;
     flex-shrink: 0;
 	margin: 20px;
-	
 	border: calc(8px + 0.2vw) solid transparent;
 	background-origin: border-box;
 	background-clip: content-box, border-box;
 	background-size: cover;
 	box-sizing: border-box;
 	box-shadow: 0 0 5px 5px rgb(238, 238, 238);
-    /* border-radius: 10%;
-    border-bottom: transparent;
-    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5); */
 }
- .header{
-   
-    background-color: #393E46;
-    
-} 
-.navbar{
-  
-    background-color: #393E46; 
-    
-}
-
-.titleNav{
-    color: #FFD369;;
-}
-.main{
-    margin-top: 10px;
-}
-.footer{
-    margin-top: 150px;
-    background-color: #393E46 ;
-    height: 150px;
-}
-.footer p{
-    padding-top: 65px;
-}
-.nav{
-    height: 100%;
-}
-  .textNav{
-    
-    color: #d7dadd;
-    text-decoration: none;
-}  
-
-
-
-
 .contAbout{
     margin-top: 100px;
 }
@@ -85,11 +71,6 @@ body{
 .titleAbout{
     font-size: 3rem;
 }
-
-.proyectos{
-    margin-top: 150px;
-}
-
 .conContactos{
     margin-top: 50px;
 }
@@ -117,7 +98,14 @@ body{
     color: #FFFFFF;
 }
 
+/********************************************************************************************************************************************************************/
 
+
+/*** Section Proyectos ***/
+
+.proyectos{
+    margin-top: 150px;
+}
 
 .cardProyectos{
     background-color: #393E46;
@@ -142,6 +130,54 @@ body{
     text-decoration: none;
     color: #000000;
 }
+
+
+/*********************************************************************************************************************************/
+
+
+/*** Section contacto ***/
+.contacto{
+    margin-top: 150px;
+}
+.contcamposContactos{
+    color: #EEEEEE;
+    
+}
+
+.logoWhatsapp{
+    color: #25d366;
+   
+}
+.logoEmail{
+    color: #c71610
+}
+
+.logoLinkedin{
+    color: #0a66c2;
+    padding-bottom: 2px;
+}
+
+.btnSendEmail{
+    margin-right: 5px;
+    border-radius: 30%;
+    padding-top: 2px;
+    padding-right: 10px;
+    padding-bottom: 4px;
+    padding-left: 10px; 
+    background-color: #FFD369; 
+}
+
+.btnCopyEmail{
+    border-radius: 30%;
+    padding-top: 2px;
+    padding-right: 10px;
+    padding-bottom: 4px;
+    padding-left: 10px; 
+    background-color: #FFD369;
+}
+/***************************************************************************************************************************************************/
+
+/*** Section Skills ***/
 
 .skills{
     margin-top: 150px;
@@ -197,9 +233,7 @@ body{
    
   }
 
-
-
-.textCardProyect p{
+  .textCardProyect p{
     border-style:ridge;
     border-width: 1px;
     border-radius: 0.5rem;
@@ -211,48 +245,22 @@ body{
     border-color: #FFFFFF;
     
 }
+/******************************************************************************************************************************************/
 
-.contacto{
+
+
+/*** Footer ***/
+.footer{
     margin-top: 150px;
+    background-color: #393E46 ;
+    height: 150px;
 }
-.contcamposContactos{
-    color: #EEEEEE;
-    
+.footer p{
+    padding-top: 65px;
 }
+/********************************************************************************************************************************************/
 
-.logoWhatsapp{
-    color: #25d366;
-   
-}
-.logoEmail{
-    color: #c71610
-}
-
-.logoLinkedin{
-    color: #0a66c2;
-    padding-bottom: 2px;
-}
-
-.btnSendEmail{
-    margin-right: 5px;
-    border-radius: 30%;
-    padding-top: 2px;
-    padding-right: 10px;
-    padding-bottom: 4px;
-    padding-left: 10px; 
-    background-color: #FFD369; 
-}
-
-.btnCopyEmail{
-    border-radius: 30%;
-    padding-top: 2px;
-    padding-right: 10px;
-    padding-bottom: 4px;
-    padding-left: 10px; 
-    background-color: #FFD369;
-}
-
-
+/*** Media Queries ***/
 
 @media (max-width: 768px) {
     .cardProyectos {
@@ -284,3 +292,4 @@ body{
         }
 
 }
+/*************************************************************************************************/
