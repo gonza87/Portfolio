@@ -1,4 +1,4 @@
-/* @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap"); */
+
 
 @import url('https://fonts.googleapis.com/css2?family=Titillium+Web:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700&display=swap');
 
@@ -68,8 +68,10 @@ background: linear-gradient(0deg, rgba(39,45,53,1) 35%, rgba(57,62,70,1) 64%, rg
     
     position: absolute;
     top: 50px; /* Ajusta según sea necesario */
-    right: auto;
+    right: 90px;
+    
     padding-top: 10px;
+    
     z-index: 100;
 }
  
@@ -163,43 +165,62 @@ background: linear-gradient(0deg, rgba(39,45,53,1) 35%, rgba(57,62,70,1) 64%, rg
     
 }
 
-.cardSkillsFront:hover {
-    transform: scale(1.10); /* Puedes ajustar el valor según tus preferencias */
-    transition: transform 0.3s ease; /* Puedes ajustar la duración y la función de temporización según tus preferencias */
-    background-color: #3388cc;
+ .cardSkillsFront:hover {
+    transform: scale(1.10); 
+    transition: transform 0.3s ease; 
+    background-color: #3081D0;
+    
     
 }
+
 .cardSkillsBack:hover {
-    transform: scale(1.10); /* Puedes ajustar el valor según tus preferencias */
-    transition: transform 0.3s ease; /* Puedes ajustar la duración y la función de temporización según tus preferencias */
-    background-color: rgb(131, 248, 161);
+    transform: scale(1.10); 
+    transition: transform 0.3s ease; 
+    background-color: #3081D0;
     
+} 
+
+.cardSkillsTool:hover{
+    transform: scale(1.10); 
+    transition: transform 0.3s ease; 
+    background-color: #3081D0;
 }
+/*
   .logoFrontent{
-    background-color: #0a66c2;
+    width: 40px;
+    height: 40px;
+    padding-bottom: 5px;
+    /* background-color: #0a66c2;
     width: 50px;
     padding: 5px;
     height: 48px;
     
-    border-radius: 50%;
-  }
+    border-radius: 50%; 
+  }*/
+
   .logoBackend{
-    background-color: #0a66c2;
+    width: 40px;
+    height: 40px;
+    padding-bottom: 5px;
+    /* background-color: #0a66c2;
     width: 50px;
     padding: 5px;
     height: 48px;
     
     border-radius: 50%;
-    background-color: rgb(111 238 141);
+    background-color: rgb(111 238 141); */
   }
   .logoTool{
-    background-color: #0a66c2;
+    width: 40px;
+    height: 40px;
+    padding-bottom: 5px;
+    /* background-color: #0a66c2;
     width: 50px;
     padding: 5px;
     height: 48px;
     
     border-radius: 50%;
-    background-color: rgb(111 238 141);
+    background-color: rgb(111 238 141); */
   }
 
 
@@ -238,4 +259,22 @@ background: linear-gradient(0deg, rgba(39,45,53,1) 35%, rgba(57,62,70,1) 64%, rg
     padding-bottom: 2px;
 }
 
+.btnSendEmail{
+    margin-right: 5px;
+    border-radius: 30%;
+    padding-top: 2px;
+    padding-right: 10px;
+    padding-bottom: 4px;
+    padding-left: 10px; 
+    background-color: #393E46; 
+}
+
+.btnCopyEmail{
+    border-radius: 30%;
+    padding-top: 2px;
+    padding-right: 10px;
+    padding-bottom: 4px;
+    padding-left: 10px; 
+    background-color: #393E46;
+}
 

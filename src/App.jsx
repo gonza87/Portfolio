@@ -11,10 +11,31 @@ import { PiToolboxFill } from "react-icons/pi";
 import { MdOutlineEmail } from "react-icons/md";
 import { FaWhatsapp } from "react-icons/fa";
 import { FaLinkedinIn } from "react-icons/fa6";
-
+import { VscSend } from "react-icons/vsc";
+import { IoCopyOutline } from "react-icons/io5";
 import "./App.css";
 
 function App() {
+  const email = "gonzalo.viglioni@gmail.com";
+  const subject = "Asunto del correo"; // Puedes personalizar el asunto del correo si lo deseas
+  const body = "Contenido del correo"; // Puedes personalizar el cuerpo del correo si lo deseas
+  const handleSendEmail = () => {
+    const mailtoLink = `mailto:${email}?subject=${encodeURIComponent(
+      subject
+    )}&body=${encodeURIComponent(body)}`;
+
+    // Abrir el cliente de correo electrónico predeterminado del usuario
+    window.open(mailtoLink);
+  };
+
+  const handleCopyEmail = async () => {
+    try {
+      // Utilizar la Clipboard API para copiar el contenido al portapapeles
+      await navigator.clipboard.writeText(email);
+    } catch (error) {
+      console.error("Error al copiar el correo al portapapeles:", error);
+    }
+  };
   const [menuVisible, setMenuVisible] = useState(false);
   const toggleMenu = () => {
     setMenuVisible(!menuVisible);
@@ -205,6 +226,14 @@ function App() {
                 <MdOutlineEmail className="logoEmail me-2" />
               </div>
               <p>gonzalo.viglioni@gmail.com</p>
+              <div className="ms-2">
+                <button className="btnSendEmail" onClick={handleSendEmail}>
+                  <VscSend />
+                </button>
+                <button className="btnCopyEmail" onClick={handleCopyEmail}>
+                  <IoCopyOutline />
+                </button>
+              </div>
             </div>
 
             <div className="d-flex align-items-baseline">
@@ -244,8 +273,17 @@ function App() {
                 style={{ width: "18rem" }}
               >
                 <Card.Body>
-                  <Card.Title className="titleCardProyect">
-                    <LuMonitorStop className="logoFrontent" /> Frontent
+                  <Card.Title className="titleCardProyect d-flex align-items-baseline">
+                    <div>
+                      <img
+                        className="logoFrontent"
+                        src="./img/logoFrontend.png"
+                        alt=""
+                      />
+                    </div>
+
+                    <p>Frontend</p>
+                    {/* <LuMonitorStop className="logoFrontent" /> Frontend */}
                   </Card.Title>
                   <Card.Text className="textCardProyect d-flex flex-wrap">
                     <p>html</p>
@@ -264,8 +302,17 @@ function App() {
                 style={{ width: "18rem" }}
               >
                 <Card.Body>
-                  <Card.Title className="titleCardProyect">
-                    <CiServer className="logoBackend" /> Backend
+                  <Card.Title className="titleCardProyect d-flex align-items-baseline">
+                    <div>
+                      <img
+                        className="logoBackend"
+                        src="./img/logoBackend.png"
+                        alt=""
+                      />
+                    </div>
+                    <p>Backend</p>
+
+                    {/* <CiServer className="logoBackend" /> Backend */}
                   </Card.Title>
                   <Card.Text className="textCardProyect d-flex flex-wrap ">
                     <p>c#</p>
@@ -285,8 +332,18 @@ function App() {
                 style={{ width: "18rem" }}
               >
                 <Card.Body>
-                  <Card.Title className="titleCardProyect">
-                    <PiToolboxFill className="logoTool" /> Tool
+                  <Card.Title className="titleCardProyect d-flex align-items-baseline">
+                    <div>
+                      <img
+                        className="logoTool "
+                        src="./img/logoTools.png"
+                        alt=""
+                      />
+                    </div>
+
+                    <p>Tools</p>
+
+                    {/* <PiToolboxFill className="logoTool" /> Tool */}
                   </Card.Title>
                   <Card.Text className="textCardProyect d-flex flex-wrap ">
                     <p>VScode</p>
