@@ -2,12 +2,10 @@ import React, { useState } from "react";
 import NavBar from "./components/NavBar";
 import Card from "react-bootstrap/Card";
 import { Link } from "react-router-dom";
-import { TfiMenuAlt } from "react-icons/tfi";
+
 import { FaGithub } from "react-icons/fa";
 import { FaLink } from "react-icons/fa";
-import { LuMonitorStop } from "react-icons/lu";
-import { CiServer } from "react-icons/ci";
-import { PiToolboxFill } from "react-icons/pi";
+
 import { MdOutlineEmail } from "react-icons/md";
 import { FaWhatsapp } from "react-icons/fa";
 import { FaLinkedinIn } from "react-icons/fa6";
@@ -20,6 +18,7 @@ function App() {
   const email = "gonzalo.viglioni@gmail.com";
   const subject = "Asunto del correo"; // Puedes personalizar el asunto del correo si lo deseas
   const body = "Contenido del correo"; // Puedes personalizar el cuerpo del correo si lo deseas
+
   const handleSendEmail = () => {
     const mailtoLink = `mailto:${email}?subject=${encodeURIComponent(
       subject
@@ -53,7 +52,7 @@ function App() {
       <main className="container main">
         <section className="mt-5">
           <div className="row">
-            <div className="col-6">
+            <div className="col-12 col-md-6 order-last order-md-first">
               <div className="contAbout">
                 <p className="titleAbout">Me llamo Gonzalo</p>
 
@@ -73,7 +72,7 @@ function App() {
                 </div>
               </div>
             </div>
-            <div className="col-6 d-flex justify-content-end">
+            <div className="col-12 col-md-6 d-flex justify-content-end order-first order-md-last">
               <img className="imgPerfil" src="/img/perfil7.jpg" alt="" />
             </div>
           </div>
@@ -258,16 +257,10 @@ function App() {
                 <Card.Body>
                   <Card.Title className="titleCardProyect d-flex align-items-baseline">
                     <div>
-                      {/* <img
-                        className="logoFrontent"
-                        src="./img/logoFrontend.png"
-                        alt=""
-                      /> */}
                       <LuMonitorCheck className="logoFrontent" />
                     </div>
 
                     <p>Frontend</p>
-                    {/* <LuMonitorStop className="logoFrontent" /> Frontend */}
                   </Card.Title>
                   <Card.Text className="textCardProyect d-flex flex-wrap">
                     <p>html</p>
@@ -295,8 +288,6 @@ function App() {
                       />
                     </div>
                     <p>Backend</p>
-
-                    {/* <CiServer className="logoBackend" /> Backend */}
                   </Card.Title>
                   <Card.Text className="textCardProyect d-flex flex-wrap ">
                     <p>c#</p>
@@ -326,8 +317,6 @@ function App() {
                     </div>
 
                     <p>Tools</p>
-
-                    {/* <PiToolboxFill className="logoTool" /> Tool */}
                   </Card.Title>
                   <Card.Text className="textCardProyect d-flex flex-wrap ">
                     <p>VScode</p>
