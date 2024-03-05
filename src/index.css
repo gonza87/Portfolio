@@ -4,8 +4,12 @@
 
 
 body{
-    background: rgb(39,45,53);
-background: linear-gradient(0deg, rgba(39,45,53,1) 35%, rgba(57,62,70,1) 64%, rgba(34,40,49,1) 84%);
+    /* background: rgb(39,45,53);
+    background: linear-gradient(0deg, rgba(39,45,53,1) 35%, rgba(57,62,70,1) 64%, rgba(34,40,49,1) 84%); */
+    /* background: rgb(97,103,122);
+    background: radial-gradient(circle, rgba(97,103,122,1) 0%, rgba(39,40,41,1) 100%); */
+    background: rgb(57,62,70);
+background: radial-gradient(circle, rgba(57,62,70,1) 16%, rgba(34,40,49,1) 73%);
     color: #FFD369;
 }
 
@@ -58,10 +62,10 @@ background: linear-gradient(0deg, rgba(39,45,53,1) 35%, rgba(57,62,70,1) 64%, rg
 .footer{
     margin-top: 150px;
     background-color: #393E46 ;
-    height: 100px;
+    height: 150px;
 }
 .footer p{
-    padding-top: 40px;
+    padding-top: 65px;
 }
 .nav{
     height: 100%;
@@ -123,7 +127,10 @@ background: linear-gradient(0deg, rgba(39,45,53,1) 35%, rgba(57,62,70,1) 64%, rg
     padding-bottom: 10px;
     padding-left: 20px;   
 }
-
+.btnCV{
+    background-color:#393E46;
+ color: #FFFFFF;
+}
 .btnLinkedin{
  background-color:#0a66c2;
  color: #FFFFFF;
@@ -194,11 +201,13 @@ background: linear-gradient(0deg, rgba(39,45,53,1) 35%, rgba(57,62,70,1) 64%, rg
     transition: transform 0.3s ease; 
     background-color: #3081D0;
 }
-/*
+
   .logoFrontent{
-    width: 40px;
-    height: 40px;
+    width: 30px;
+    height: 30px;
     padding-bottom: 5px;
+    
+}
     /* background-color: #0a66c2;
     width: 50px;
     padding: 5px;
@@ -220,8 +229,8 @@ background: linear-gradient(0deg, rgba(39,45,53,1) 35%, rgba(57,62,70,1) 64%, rg
     background-color: rgb(111 238 141); */
   }
   .logoTool{
-    width: 40px;
-    height: 40px;
+    width: 35px;
+    height: 35px;
     padding-bottom: 5px;
     /* background-color: #0a66c2;
     width: 50px;
@@ -275,7 +284,7 @@ background: linear-gradient(0deg, rgba(39,45,53,1) 35%, rgba(57,62,70,1) 64%, rg
     padding-right: 10px;
     padding-bottom: 4px;
     padding-left: 10px; 
-    background-color: #393E46; 
+    background-color: #FFD369; 
 }
 
 .btnCopyEmail{
@@ -284,6 +293,6 @@ background: linear-gradient(0deg, rgba(39,45,53,1) 35%, rgba(57,62,70,1) 64%, rg
     padding-right: 10px;
     padding-bottom: 4px;
     padding-left: 10px; 
-    background-color: #393E46;
+    background-color: #FFD369;
 }
 

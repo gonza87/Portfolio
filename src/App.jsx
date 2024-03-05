@@ -13,6 +13,7 @@ import { FaWhatsapp } from "react-icons/fa";
 import { FaLinkedinIn } from "react-icons/fa6";
 import { VscSend } from "react-icons/vsc";
 import { IoCopyOutline } from "react-icons/io5";
+import { LuMonitorCheck } from "react-icons/lu";
 import "./App.css";
 
 function App() {
@@ -90,11 +91,12 @@ function App() {
                   <button className="btnLinkedin">Linkedin</button>
                   <button className="btnContacto ms-2">Contacto</button>
                   <button className="btnGitHub ms-2">GitHub</button>
+                  <button className="btnCV ms-2">Descarga CV</button>
                 </div>
               </div>
             </div>
             <div className="col-6 d-flex justify-content-end">
-              <img className="imgPerfil" src="/img/perfil6.jpg" alt="" />
+              <img className="imgPerfil" src="/img/perfil7.jpg" alt="" />
             </div>
           </div>
         </section>
@@ -140,7 +142,9 @@ function App() {
             <Card className="cardProyectos" style={{ width: "18rem" }}>
               <Card.Img variant="top" src="/gif/twitter.gif" />
               <Card.Body>
-                <Card.Title className="titleCardProyect">Twitter</Card.Title>
+                <Card.Title className="titleCardProyect">
+                  HackTwitter
+                </Card.Title>
                 <Card.Text className="textCardProyect d-flex">
                   <p>react</p> <p>node</p> <p>express</p>
                 </Card.Text>
@@ -276,11 +280,12 @@ function App() {
                 <Card.Body>
                   <Card.Title className="titleCardProyect d-flex align-items-baseline">
                     <div>
-                      <img
+                      {/* <img
                         className="logoFrontent"
                         src="./img/logoFrontend.png"
                         alt=""
-                      />
+                      /> */}
+                      <LuMonitorCheck className="logoFrontent" />
                     </div>
 
                     <p>Frontend</p>
