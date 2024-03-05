@@ -16,8 +16,8 @@ import "./App.css";
 
 function App() {
   const email = "gonzalo.viglioni@gmail.com";
-  const subject = "Asunto del correo"; // Puedes personalizar el asunto del correo si lo deseas
-  const body = "Contenido del correo"; // Puedes personalizar el cuerpo del correo si lo deseas
+  const subject = ""; // Puedes personalizar el asunto del correo si lo deseas
+  const body = ""; // Puedes personalizar el cuerpo del correo si lo deseas
 
   const handleSendEmail = () => {
     const mailtoLink = `mailto:${email}?subject=${encodeURIComponent(
