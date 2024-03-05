@@ -1,6 +1,7 @@
 import React, { useState } from "react";
-import Card from "react-bootstrap/Card";
 
+import Card from "react-bootstrap/Card";
+import { Link } from "react-router-dom";
 import { TfiMenuAlt } from "react-icons/tfi";
 import { FaGithub } from "react-icons/fa";
 import { FaLink } from "react-icons/fa";
@@ -19,7 +20,9 @@ function App() {
     setMenuVisible(!menuVisible);
   };
   const [projectHovered, setProjectHovered] = useState(null);
-
+  const webGitHub = "https://github.com/gonza87";
+  const whatsapp = "https://wa.me/+59898602073";
+  const linkedin = "https://www.linkedin.com/in/gonzaloviglioni/";
   return (
     <>
       <div className="header container-fluid">
@@ -200,23 +203,36 @@ function App() {
           <div className="contcamposContactos fs-5">
             <div className="d-flex align-items-baseline">
               <div>
-                <MdOutlineEmail className="logoEmail" />
+                <MdOutlineEmail className="logoEmail me-2" />
               </div>
               <p>gonzalo.viglioni@gmail.com</p>
             </div>
 
             <div className="d-flex align-items-baseline">
               <div>
-                <FaLinkedinIn className="logoLinkedin" />
+                <Link to={linkedin} style={{ textDecoration: "none" }}>
+                  <FaLinkedinIn className="logoLinkedin me-2" />
+                </Link>
               </div>
-              <p>LinkedIn</p>
+              <p>in/gonzaloviglioni/</p>
             </div>
 
             <div className="d-flex align-items-baseline">
               <div>
-                <FaWhatsapp className="logoWhatsapp" />
+                <Link to={whatsapp} style={{ textDecoration: "none" }}>
+                  <FaWhatsapp className="logoWhatsapp me-2" />
+                </Link>
               </div>
-              <p>Whatsapp +598 60 20 73</p>
+              <p>+598 60 20 73</p>
+            </div>
+
+            <div className="d-flex align-items-baseline">
+              <div>
+                <Link to={webGitHub} style={{ textDecoration: "none" }}>
+                  <FaGithub className="linksCardProyect me-2" />
+                </Link>
+              </div>
+              <p>gonza87</p>
             </div>
           </div>
         </section>
@@ -224,7 +240,10 @@ function App() {
           <p className="fs-2">Skills</p>
           <div className="row">
             <div className="col-lg-4 col-md-6 col-12">
-              <Card className="cardSkills" style={{ width: "18rem" }}>
+              <Card
+                className="cardSkills cardSkillsFront"
+                style={{ width: "18rem" }}
+              >
                 <Card.Body>
                   <Card.Title className="titleCardProyect">
                     <LuMonitorStop className="logoFrontent" /> Frontent
@@ -241,7 +260,10 @@ function App() {
               </Card>
             </div>
             <div className="col-lg-4 col-md-6 col-12">
-              <Card className="cardSkills" style={{ width: "18rem" }}>
+              <Card
+                className="cardSkills cardSkillsBack"
+                style={{ width: "18rem" }}
+              >
                 <Card.Body>
                   <Card.Title className="titleCardProyect">
                     <CiServer className="logoBackend" /> Backend
@@ -259,7 +281,10 @@ function App() {
               </Card>
             </div>
             <div className="col-lg-4 col-md-6 col-12">
-              <Card className="cardSkills" style={{ width: "18rem" }}>
+              <Card
+                className="cardSkills cardSkillsTool"
+                style={{ width: "18rem" }}
+              >
                 <Card.Body>
                   <Card.Title className="titleCardProyect">
                     <PiToolboxFill className="logoTool" /> Tool
