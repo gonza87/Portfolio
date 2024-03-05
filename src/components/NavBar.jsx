@@ -20,12 +20,12 @@ function NavBar() {
               </a>
             </div>
             <div className="d-flex align-items-center">
-              <a className="ms-2 textNav" href="#contacto">
+              <a className="ms-lg-2 textNav" href="#contacto">
                 Contacto
               </a>
             </div>
             <div className="d-flex align-items-center">
-              <a className="ms-2 textNav" href="#skills">
+              <a className="ms-lg-2 textNav" href="#skills">
                 Skills
               </a>
             </div>

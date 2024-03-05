@@ -151,6 +151,7 @@ body{
     background-color: #393E46;
     transition: background-color 0.3s ease;
     height: 230px;
+    margin-bottom: 40px;
     
 }
 
@@ -251,3 +252,35 @@ body{
     background-color: #FFD369;
 }
 
+
+
+@media (max-width: 768px) {
+    .cardProyectos {
+        width: 100%!important;
+        
+    }
+    .cardProyectos:hover {
+        transform: scale(1); 
+      }
+        .cardSkills{
+            width: 100%!important;
+        }
+        .cardSkillsFront:hover {
+            transform: scale(1);       
+            
+        }
+        .cardSkillsBack:hover {
+            transform: scale(1); 
+           
+            
+        } 
+        
+        .cardSkillsTool:hover{
+            transform: scale(1); 
+          
+        }
+        .textNav{
+            margin-left: 0px !important;
+        }
+
+}
