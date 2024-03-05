@@ -57,9 +57,8 @@ function App() {
                 <p className="titleAbout">Me llamo Gonzalo</p>
 
                 <p className="fs-5 textAbout">
-                  Soy desarrollador Full Stack con fuerte curiosidad en el
-                  diseño web y programación. Creo en la importancia del diseño
-                  centrado en el usuario y la creación de soluciones.
+                  Soy desarrollador Web Full Stack con fuerte curiosidad en el
+                  diseño y programación.
                   <p className="fs-5 textAbout">
                     Estoy abierto a nuevas oportunidades y colaboraciones ¡no
                     dudes en contactarme!
@@ -302,7 +301,7 @@ function App() {
       </main>
 
       <footer className="footer text-center">
-        <p>GonzaloWebDev. © 2023</p>
+        <p>© Copyright 2024 | GonzaloWebDev</p>
       </footer>
     </>
   );

@@ -23,8 +23,8 @@ background: linear-gradient(0deg, rgba(39,45,53,1) 35%, rgba(57,62,70,1) 64%, rg
     border-radius: 50% 10%;
 	background-image: var(--img-url), linear-gradient(to bottom left, #f83600, #f9d423);
    
-    width: 300px;
-    height: 350px;
+    width: 350px;
+    height: 400px;
     flex-shrink: 0;
 	margin: 20px;
 	
