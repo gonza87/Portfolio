@@ -24,8 +24,8 @@ body{
     border-radius: 50% 10%;
 	background-image: var(--img-url), linear-gradient(to bottom left, #f83600, #f9d423);
    
-    width: 350px;
-    height: 400px;
+    width: 336px;
+    height: 386px;
     flex-shrink: 0;
 	margin: 20px;
 	

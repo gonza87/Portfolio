@@ -81,7 +81,7 @@ function App() {
               </div>
             </div>
             <div className="col-12 col-md-6 d-flex justify-content-end order-first order-md-last">
-              <img className="imgPerfil" src="/img/perfil7.jpg" alt="" />
+              <img className="imgPerfil" src="/img/perfil9.jpg" alt="" />
             </div>
           </div>
         </section>
