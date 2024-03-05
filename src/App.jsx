@@ -49,28 +49,6 @@ function App() {
     <>
       <div className="header container-fluid">
         <NavBar />
-        {/* <div className="container nav d-flex justify-content-between">
-          <h1 className="align-self-center textNav">{"<Gwd>"}</h1>
-          <div className="align-self-center">
-            <TfiMenuAlt className="iconoMenu" size={30} onClick={toggleMenu} />
-            {menuVisible && (
-              <div className="menu-desplegable">
-                
-                <div>
-                  <a href="#proyectos">Portfolio</a>
-                </div>
-                <div>
-                  <a href="#contacto">Contacto</a>
-                </div>
-                <div>
-                  <a href="#skills">Skills</a>
-                </div>
-
-                
-              </div>
-            )}
-          </div>
-        </div> */}
       </div>
       <main className="container main">
         <section className="mt-5">

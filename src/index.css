@@ -4,12 +4,9 @@
 
 
 body{
-    /* background: rgb(39,45,53);
-    background: linear-gradient(0deg, rgba(39,45,53,1) 35%, rgba(57,62,70,1) 64%, rgba(34,40,49,1) 84%); */
-    /* background: rgb(97,103,122);
-    background: radial-gradient(circle, rgba(97,103,122,1) 0%, rgba(39,40,41,1) 100%); */
+   
     background: rgb(57,62,70);
-background: radial-gradient(circle, rgba(57,62,70,1) 16%, rgba(34,40,49,1) 73%);
+    background: radial-gradient(circle, rgba(57,62,70,1) 16%, rgba(34,40,49,1) 73%);
     color: #FFD369;
 }
 
@@ -43,12 +40,12 @@ background: radial-gradient(circle, rgba(57,62,70,1) 16%, rgba(34,40,49,1) 73%);
     box-shadow: 0 0 20px rgba(0, 0, 0, 0.5); */
 }
  .header{
-    /* height: 80px; */
+   
     background-color: #393E46;
     
 } 
 .navbar{
-    /* height: 80px; */
+  
     background-color: #393E46; 
     
 }
@@ -77,31 +74,7 @@ background: radial-gradient(circle, rgba(57,62,70,1) 16%, rgba(34,40,49,1) 73%);
 }  
 
 
-/* .menu-desplegable {
-    
-    position: absolute;
-    top: 50px; 
-    right: 90px;
-    
-    padding-top: 10px;
-    
-    z-index: 100;
-}
- 
 
-.menu-desplegable p:hover{
-    cursor: pointer;
-}
-
-.menu-desplegable a {
-    text-decoration: none;
-    color: #FFD369;
-    font-size: larger;
-}
-
-.iconoMenu:hover{
-    cursor: pointer;
-} */
 
 .contAbout{
     margin-top: 100px;
@@ -208,37 +181,19 @@ background: radial-gradient(circle, rgba(57,62,70,1) 16%, rgba(34,40,49,1) 73%);
     padding-bottom: 5px;
     
 }
-    /* background-color: #0a66c2;
-    width: 50px;
-    padding: 5px;
-    height: 48px;
-    
-    border-radius: 50%; 
-  }*/
+
 
   .logoBackend{
     width: 40px;
     height: 40px;
     padding-bottom: 5px;
-    /* background-color: #0a66c2;
-    width: 50px;
-    padding: 5px;
-    height: 48px;
-    
-    border-radius: 50%;
-    background-color: rgb(111 238 141); */
+
   }
   .logoTool{
     width: 35px;
     height: 35px;
     padding-bottom: 5px;
-    /* background-color: #0a66c2;
-    width: 50px;
-    padding: 5px;
-    height: 48px;
-    
-    border-radius: 50%;
-    background-color: rgb(111 238 141); */
+   
   }
 
 
