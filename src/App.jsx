@@ -79,7 +79,7 @@ function App() {
                 </div>
               </div>
             </div>
-            <div className="col-12 col-md-6 d-flex justify-content-end order-first order-md-last">
+            <div className="col-12 col-md-6 d-flex justify-content-end order-first order-md-last contImgPerfil">
               <img className="imgPerfil" src="/img/perfil9.jpg" alt="" />
             </div>
           </div>
