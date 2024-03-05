@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-
+import NavBar from "./components/NavBar";
 import Card from "react-bootstrap/Card";
 import { Link } from "react-router-dom";
 import { TfiMenuAlt } from "react-icons/tfi";
@@ -47,13 +47,14 @@ function App() {
   return (
     <>
       <div className="header container-fluid">
-        <div className="container nav d-flex justify-content-between">
+        <NavBar />
+        {/* <div className="container nav d-flex justify-content-between">
           <h1 className="align-self-center textNav">{"<Gwd>"}</h1>
           <div className="align-self-center">
             <TfiMenuAlt className="iconoMenu" size={30} onClick={toggleMenu} />
             {menuVisible && (
               <div className="menu-desplegable">
-                {/* Contenido del menú desplegable */}
+                
                 <div>
                   <a href="#proyectos">Portfolio</a>
                 </div>
@@ -64,11 +65,11 @@ function App() {
                   <a href="#skills">Skills</a>
                 </div>
 
-                {/* Agrega más elementos según sea necesario */}
+                
               </div>
             )}
           </div>
-        </div>
+        </div> */}
       </div>
       <main className="container main">
         <section className="mt-5">
