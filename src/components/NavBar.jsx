@@ -7,7 +7,7 @@ function NavBar() {
     <Navbar expand="lg" className="navbar">
       <Container>
         <Navbar.Brand className="titleNav" href="#home">
-          GWD
+          {"{GVD}"}
         </Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
