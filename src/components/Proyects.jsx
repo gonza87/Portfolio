@@ -17,10 +17,10 @@ function Proyects() {
           </Card.Body>
 
           <Card.Body className="d-flex justify-content-center">
-            <Card.Link href="https://github.com/gonza87/HackShop_Front_Users">
+            <Card.Link href="https://github.com/gonza87/HackShop_Front_Users" target="_blank" rel="noopener noreferrer">
               <FaGithub className="linksCardProyect" size={25} />
             </Card.Link>
-            <Card.Link href="https://hack-shop-front-users-seven.vercel.app/">
+            <Card.Link href="https://hack-shop-front-users-seven.vercel.app/" target="_blank" rel="noopener noreferrer">
               <FaLink className="linksCardProyect" size={25} />
             </Card.Link>
           </Card.Body>
