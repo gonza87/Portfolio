@@ -12,10 +12,10 @@ function About() {
           <p className="fs-5 textAbout">
             Soy desarrollador Web Full Stack con fuerte curiosidad en el diseño
             y programación.
-            <p className="fs-5 textAbout">
-              Estoy abierto a nuevas oportunidades y colaboraciones ¡no dudes en
-              contactarme!
-            </p>
+          </p>
+          <p className="fs-5 textAbout">
+            Estoy abierto a nuevas oportunidades y colaboraciones ¡no dudes en
+            contactarme!
           </p>
           <div className="conContactos">
             <Link to={linkedin} style={{ textDecoration: "none" }}>
@@ -28,8 +28,9 @@ function About() {
             <Link to={webGitHub} style={{ textDecoration: "none" }}>
               <button className="btnGitHub me-2 mt-1">GitHub</button>
             </Link>
-
-            <button className="btnCV mt-1">Descarga CV</button>
+            <a href="/pdf/CV_GonzaloViglioni.pdf" download>
+              <button className="btnCV mt-1">Descarga CV</button>
+            </a>
           </div>
         </div>
       </div>
