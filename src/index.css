@@ -264,6 +264,24 @@ body{
 /*** Media Queries ***/
 
 @media (max-width: 768px) {
+    .imgPerfil{
+         width: 236px;
+        height: 286px; 
+    }
+    .contAbout{
+        margin-top: 50px;
+    }
+    .proyectos{
+        margin-top: 100px;
+    }
+
+    .contacto{
+        margin-top: 0px;
+    }
+
+    .skills{
+        margin-top: 100px;
+    }
     .contImgPerfil{
         justify-content: center !important;
     }
