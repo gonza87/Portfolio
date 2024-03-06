@@ -65,17 +65,17 @@ function App() {
                 </p>
                 <div className="conContactos">
                   <Link to={linkedin} style={{ textDecoration: "none" }}>
-                    <button className="btnLinkedin">Linkedin</button>
+                    <button className="btnLinkedin me-2 mt-1">Linkedin</button>
                   </Link>
 
                   <a href="#contacto">
-                    <button className="btnContacto ms-2">Contacto</button>
+                    <button className="btnContacto me-2">Contacto</button>
                   </a>
                   <Link to={webGitHub} style={{ textDecoration: "none" }}>
-                    <button className="btnGitHub ms-2">GitHub</button>
+                    <button className="btnGitHub me-2 mt-1">GitHub</button>
                   </Link>
 
-                  <button className="btnCV ms-2">Descarga CV</button>
+                  <button className="btnCV mt-1">Descarga CV</button>
                 </div>
               </div>
             </div>
