@@ -1,3 +1,4 @@
+
 import Card from "react-bootstrap/Card";
 import { FaGithub } from "react-icons/fa";
 import { FaLink } from "react-icons/fa";
@@ -16,10 +17,10 @@ function Proyects() {
           </Card.Body>
 
           <Card.Body className="d-flex justify-content-center">
-            <Card.Link href="#">
+            <Card.Link href="https://github.com/gonza87/HackShop_Front_Users">
               <FaGithub className="linksCardProyect" size={25} />
             </Card.Link>
-            <Card.Link href="#">
+            <Card.Link href="https://hack-shop-front-users-seven.vercel.app/">
               <FaLink className="linksCardProyect" size={25} />
             </Card.Link>
           </Card.Body>

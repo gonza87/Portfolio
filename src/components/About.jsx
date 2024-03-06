@@ -18,14 +18,14 @@ function About() {
             contactarme!
           </p>
           <div className="conContactos">
-            <Link to={linkedin} style={{ textDecoration: "none" }}>
+            <Link to={linkedin} style={{ textDecoration: "none" }} target="_blank" rel="noopener noreferrer">
               <button className="btnLinkedin me-2 mt-1">Linkedin</button>
             </Link>
 
             <a href="#contacto">
               <button className="btnContacto me-2">Contacto</button>
             </a>
-            <Link to={webGitHub} style={{ textDecoration: "none" }}>
+            <Link to={webGitHub} style={{ textDecoration: "none" }} target="_blank" rel="noopener noreferrer">
               <button className="btnGitHub me-2 mt-1">GitHub</button>
             </Link>
             <a href="/pdf/CV_GonzaloViglioni.pdf" download>
