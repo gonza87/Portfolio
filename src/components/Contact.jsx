@@ -5,6 +5,7 @@ import { IoCopyOutline } from "react-icons/io5";
 import { FaLinkedinIn } from "react-icons/fa6";
 import { FaWhatsapp } from "react-icons/fa";
 import { FaGithub } from "react-icons/fa";
+
 function Contact() {
   const linkedin = "https://www.linkedin.com/in/gonzaloviglioni/";
   const whatsapp = "https://wa.me/+59898602073";
