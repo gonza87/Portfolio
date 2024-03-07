@@ -35,10 +35,10 @@ function Proyects() {
           </Card.Body>
 
           <Card.Body className="d-flex justify-content-center">
-            <Card.Link href="#">
+            <Card.Link href="https://github.com/gonza87/Hackflix" target="_blank" rel="noopener noreferrer">
               <FaGithub className="linksCardProyect" size={25} />
             </Card.Link>
-            <Card.Link href="#">
+            <Card.Link href="https://gonza87.github.io/Hackflix/" target="_blank" rel="noopener noreferrer">
               <FaLink className="linksCardProyect" size={25} />
             </Card.Link>
           </Card.Body>
@@ -53,10 +53,10 @@ function Proyects() {
           </Card.Body>
 
           <Card.Body className="d-flex justify-content-center">
-            <Card.Link href="#">
+            <Card.Link href="https://github.com/gonza87/tweeter_front" target="_blank" rel="noopener noreferrer">
               <FaGithub className="linksCardProyect" size={25} />
             </Card.Link>
-            <Card.Link href="#">
+            <Card.Link href="https://tweeter-front-puce.vercel.app/" target="_blank" rel="noopener noreferrer">
               <FaLink className="linksCardProyect" size={25} />
             </Card.Link>
           </Card.Body>
@@ -71,10 +71,10 @@ function Proyects() {
           </Card.Body>
 
           <Card.Body className="d-flex justify-content-center">
-            <Card.Link href="#">
+            <Card.Link href="https://github.com/gonza87/JSProyectoFinal" target="_blank" rel="noopener noreferrer">
               <FaGithub className="linksCardProyect" size={25} />
             </Card.Link>
-            <Card.Link href="#">
+            <Card.Link href="https://gonza87.github.io/JSProyectoFinal/" target="_blank" rel="noopener noreferrer">
               <FaLink className="linksCardProyect" size={25} />
             </Card.Link>
           </Card.Body>
@@ -89,10 +89,10 @@ function Proyects() {
           </Card.Body>
 
           <Card.Body className="d-flex justify-content-center">
-            <Card.Link href="#">
+            <Card.Link href="https://github.com/gonza87/DWProyectoFinal" target="_blank" rel="noopener noreferrer">
               <FaGithub className="linksCardProyect" size={25} />
             </Card.Link>
-            <Card.Link href="#">
+            <Card.Link href="https://gonza87.github.io/DWProyectoFinal/" target="_blank" rel="noopener noreferrer">
               <FaLink className="linksCardProyect" size={25} />
             </Card.Link>
           </Card.Body>
@@ -107,10 +107,10 @@ function Proyects() {
           </Card.Body>
 
           <Card.Body className="d-flex justify-content-center">
-            <Card.Link href="#">
+            <Card.Link href="https://github.com/gonza87/maquetado01" target="_blank" rel="noopener noreferrer">
               <FaGithub className="linksCardProyect" size={25} />
             </Card.Link>
-            <Card.Link href="#">
+            <Card.Link href="https://gonza87.github.io/maquetado01/" target="_blank" rel="noopener noreferrer">
               <FaLink className="linksCardProyect" size={25} />
             </Card.Link>
           </Card.Body>
