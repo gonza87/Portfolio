@@ -11,20 +11,20 @@ function Contact() {
   const whatsapp = "https://wa.me/+59898602073";
   const webGitHub = "https://github.com/gonza87";
   const email = "gonzalo.viglioni@gmail.com";
-  const subject = ""; // Puedes personalizar el asunto del correo si lo deseas
-  const body = ""; // Puedes personalizar el cuerpo del correo si lo deseas
+  const subject = "";
+  const body = ""; 
   const handleSendEmail = () => {
     const mailtoLink = `mailto:${email}?subject=${encodeURIComponent(
       subject
     )}&body=${encodeURIComponent(body)}`;
 
-    // Abrir el cliente de correo electrónico predeterminado del usuario
+    
     window.open(mailtoLink);
   };
 
   const handleCopyEmail = async () => {
     try {
-      // Utilizar la Clipboard API para copiar el contenido al portapapeles
+      
       await navigator.clipboard.writeText(email);
     } catch (error) {
       console.error("Error al copiar el correo al portapapeles:", error);
